@@ -18,16 +18,6 @@
  */
 import { t } from '@superset-ui/translation';
 
-/*
-['pie_label_type', 'number_format'],
-['donut', 'show_legend'],
-['show_labels', 'labels_outside'],
-['color_scheme', 'label_colors'],
-*/
-
-//add show_labels (label.enabled)
-//add color options
-
 export default {
   controlPanelSections: [
     {
@@ -49,7 +39,7 @@ export default {
         ['min_height', 'curve_height'],
         ['bottom_pinch', 'font_size'],
         ['tooltip_enabled', 'curve_enabled'],
-        ['tooltip_format'],['label_format'],
+        ['tooltip_format'], ['label_format'],
         ['color_scheme'],
       ],
     },

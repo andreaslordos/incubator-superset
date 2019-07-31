@@ -79,7 +79,7 @@ export default class MainPreset extends Preset {
         new EventFlowChartPlugin().configure({ key: 'event_flow' }),
         new FilterBoxChartPlugin().configure({ key: 'filter_box' }),
         new ForceDirectedChartPlugin().configure({ key: 'directed_force' }),
-	      new FunnelChartPlugin().configure({ key: 'funnel' }),
+        new FunnelChartPlugin().configure({ key: 'funnel' }),
         new HeatmapChartPlugin().configure({ key: 'heatmap' }),
         new HistogramChartPlugin().configure({ key: 'histogram' }),
         new HorizonChartPlugin().configure({ key: 'horizon' }),
